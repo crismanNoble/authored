@@ -1,0 +1,67 @@
+@BODY_COLOR_BACKGROUND: #f1f1f1;
+@TEXT_COLOR: #333333;
+
+
+body {
+	background: @BODY_COLOR_BACKGROUND;
+	color: @TEXT_COLOR;
+	font-family: georgia;
+}
+
+body, html, h1, h2, h3, p {
+	margin: 0;
+}
+
+a {
+	color: @TEXT_COLOR
+}
+
+.profile-wrapper,
+.post-wrapper,
+.future-wrapper {
+	display: block;
+	text-decoration: none;
+	color: @TEXT_COLOR;
+	padding: 25px 20px 0;
+	line-height: 1.4;
+
+	&:first-of-type {
+		padding-top: 0;
+	}
+}
+
+.section-title {
+	padding-left: 20px;
+	font-size: 18px;
+	padding-top: 20px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h1 {
+	padding: 20px 20px 0;
+	font-weight: normal;
+}
+
+p {
+	max-width: 34em;
+}
+
+.link {
+	max-width: none;
+}
+
+.platform {
+	font-style: italic;
+}
+
+.excerpt {
+	padding: 3px 7px;
+	border-left: 2px solid #666666;
+	margin: 5px 0;
+}

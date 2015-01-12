@@ -1,0 +1,49 @@
+{{> header}}
+
+<h1>Blogging</h1>
+
+<section>
+	<h2 class="section-title">Platforms</h3>
+	{{#each platforms}}
+			<article class="platform-{{title}} profile-wrapper">
+				<h3>{{#if profile}}<a href="{{profile}}">{{else}}<a href="{{url}}">{{/if}}{{title}}</a></h3>
+				{{#if profile}}
+				<p class="link"><a href="{{profile}}">{{profile}}</a></p>
+				{{else}}
+				<p class="link"><a href="{{url}}">{{url}}</a></p>
+				{{/if}}
+			</article>
+		</a>
+	{{/each}}
+</section>
+
+<section>
+	<h2 class="section-title">Posts</h3>
+	{{#each posts}}
+		<article class="post-{{platform}} post-wrapper">
+			<h3><a href="{{url}}">{{title}}</a></h3>
+			<p class="excerpt">{{excerpt}}</p>
+			<p class="platform">published with {{platform}} on {{date}}</p>
+			<p class="link"><a href="{{url}}">{{url}}</a></p>
+		</article>
+	</a>
+	{{/each}}
+</section>
+
+<section>
+	<h2 class="section-title">Future Posts</h3>
+	{{#each ideas}}
+	<article class="future-wrapper">
+		<h3>{{concept}}</h3>
+		{{#if date}}
+		<p class="date">coming in: {{date}}</p>
+		{{/if}}
+		{{#if draft}}
+		<a href="{{draft}}">read the draft</a>
+		{{/if}}
+	</article>
+	{{/each}}
+</section>
+
+{{>footer}}
+

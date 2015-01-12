@@ -1,0 +1,82 @@
+{
+	"platforms":[
+		{
+			"title":"medium",
+			"url":"https://medium.com",
+			"profile":"https://medium.com/@crisnoble/"
+		},{
+			"title":"kovalent",
+			"profile":"",
+			"url":"http://kovalent.co/blog/"
+		},{
+			"title":"mksht",
+			"profile":"",
+			"url":"http://mksht.crisnoble.com/"
+		}
+	],
+	"ideas":[
+		{
+			"concept":"Quantified Anything (creating a custom self tracking tool)",
+			"date":"2014-12-09",
+			"draft":""
+		},{
+			"concept":"automatically optimize images (using grunt / gulp)",
+			"date":"2015",
+			"draft":""
+		},{
+			"concept":"using google docs as a simple backend",
+			"date":"2015",
+			"draft":""
+		},{
+			"concept":"Scrape Anything With Kimono",
+			"date":"2015",
+			"draft":""
+		},{
+			"concept":"Build a simple contact form",
+			"date":"2015",
+			"draft":""
+		},{
+			"concept":"@3x image mixins for LESS",
+			"date":"2015",
+			"draft":""
+		},{
+			"concept":"Operation Kill IE8",
+			"date":"2015",
+			"draft":"https://draftin.com/documents/575141/edit"
+		}
+	],
+	"posts":[
+		{
+			"title":"Hosting Your Domain Name With Pancake.io",
+			"url":"http://kovalent.co/blog/2014/02/17/hosting-domain-name-with-pancake-io/",
+			"platform":"kovalent",
+			"date":"2014-02-17",
+			"excerpt":"Pancake.io + Dropbox = Free (static) Website Hosting"
+		},
+		{
+			"title":"How to Buy a Domain Name",
+			"url":"http://kovalent.co/blog/2014/05/20/how-to-buy-a-domain/",
+			"platform":"kovalent",
+			"date":"2014-05-20",
+			"excerpt":"Because everyone should own their own domain at one point in their life."
+		},{
+			"title":"How to (Properly) Save Images for the Web",
+			"date":"2014-07-21",
+			"platform":"kovalent",
+			"url":"http://kovalent.co/blog/2014/06/21/save-images-for-web/",
+			"excerpt":"How anyone can use progressive jpegs, and a reminder to always run files through a lossless optimizer."
+		},{
+			"title":"Using New LESS Plugins With Your Build Process",
+			"date":"2014-12-07",
+			"platform":"medium",
+			"url":"https://medium.com/@crisnoble/using-new-less-plugins-with-your-build-process-571ef543166d",
+			"excerpt":"How to use the LESS 2.x plugins with Gulp."
+		}, {
+			"title":"Open City Data",
+			"date":"2014-12-22",
+			"platform":"kovalent",
+			"url":"http://kovalent.co/blog/2014/12/22/open-city-data/",
+			"excerpt":"Why San Diego needs open to open up city data."
+		}
+	]
+}
